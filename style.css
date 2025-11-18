@@ -1,0 +1,225 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #222;
+}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 925px;
+    width: auto;
+    margin: auto;
+    padding:80px 20px;
+    
+}
+
+.star-box{
+    position: relative;
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+    .star{
+        position: absolute;
+        z-index: 1;
+
+        img{
+            width: 100%;
+        }
+
+        &.shine{
+            filter: brightness(120%);
+
+            &:before{
+                content:' ';
+                position: absolute;
+                z-index: -1;
+                height:200%;
+                width: 200%;
+                top: -150%;
+                left: -150%;
+                transform: translate(50%, 50%);
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(255, 243, 184, 0.8) 0%, transparent 60%);
+                }
+            }
+
+        &.noShine {
+            filter: brightness(60%);
+
+            &:before{
+                content:' ';
+                position: absolute;
+                z-index: -1;
+                height:200%;
+                width: 200%;
+                top: -150%;
+                left: -150%;
+                transform: translate(50%, 50%);
+                border-radius: 50%;
+                background: radial-gradient(circle, rgb(0, 0, 0) 0%, transparent 60%);
+            }
+        }
+    }
+}
+
+.star-1{
+    left: 66.5%;
+    bottom: 11%;
+    width: 2.8%;
+  
+}
+
+.star-2{
+    left: 48.4%;
+    top: 44.5%;
+    width: 5%;
+
+}
+
+.star-3{
+    left: 50%;
+    bottom: 6.2%;
+    width: 5%;
+
+}
+
+.star-4{
+    left: 37.5%;
+    bottom: 19.3%;
+    width: 5%;
+
+}
+
+.star-5{
+    left: 54.2%;
+    bottom: 21%;
+    width: 4.8%;
+
+}
+
+.star-6{
+    left: 22.5%;
+    bottom: 7%;
+    width: 5%;
+}
+
+.star-7{
+    left: 40%;
+    bottom: 5%;
+    width: 5%;
+}
+
+.star-8{
+    left: 31.5%;
+    bottom: 34.3%;
+    width: 5.2%;
+}
+
+.star-9{
+    left: 42.5%;
+    top: 31%;
+    width: 4.8%;
+}
+
+.star-10{
+    left: 28.5%;
+    top: 44%;
+    width: 4.3%;
+}
+
+.star-11{
+    right: 36.8%;
+    bottom: 7%;
+    width: 5%;
+}
+
+.star-12{
+    right: 34%;
+    bottom: 24%;
+    width: 3.5%;
+}
+
+.star-13{
+    right: 53%;
+    bottom: 33%;
+    width: 5%;
+}
+
+.star-14{
+    left: 21%;
+    bottom: 21%;
+    width: 4.5%;
+}
+
+.star-15{
+    right: 55%;
+    top: 45%;
+    width: 5%;
+}
+
+.star-16{
+    right: 37.5%;
+    bottom: 37%;
+    width: 3.5%;
+}
+.star-17{
+    left: 24.5%;
+    bottom: 35%;
+    width: 4.5%;
+
+}
+.star-18{
+    left: 15.5%;
+    bottom: 8.5%;
+    width: 4.8%;
+
+}
+.star-19{
+    right: 43.2%;
+    bottom: 35%;
+    width: 4.5%;
+
+}
+.star-20{
+    right: 49.8%;
+    bottom: 19.5%;
+    width: 5%;
+
+}
+.star-21{
+    left: 33%;
+    top: 44%;
+    width: 4.5%;
+
+}
+.star-22{
+    left: 30.3%;
+    bottom: 6%;
+    width: 5.2%;
+
+}
+.star-23{
+    left: 34.5%;
+    top: 30%;
+    width: 4.8%;
+
+}
+.star-24{
+    right: 65.5%;
+    bottom: 19.5%;
+    width: 5%;
+
+}
+
+
+@media (max-width: 610px) {
+    
+}
