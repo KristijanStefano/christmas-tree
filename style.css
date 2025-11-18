@@ -221,5 +221,152 @@ body{
 
 
 @media (max-width: 610px) {
-    
+    .star-1{
+        left: 81.5%;
+        bottom: 15%;
+        width: 7.5%;
+    }
+
+    .star-2{
+        left: 64%;
+        top: 29.5%;
+        width: 5.5%;
+
+    }
+
+    .star-3{
+        left: 48%;
+        bottom: 12.2%;
+        width: 8%;
+
+    }
+
+    .star-4{
+        left: 55.5%;
+        bottom: 27%;
+        width: 7.8%;
+
+    }
+
+    .star-5{
+        left: 84.5%;
+        bottom: 32.5%;
+        width: 4%;
+
+    }
+
+    .star-6{
+        left: 4%;
+        bottom: 15%;
+        width: 7.5%;
+    }
+
+    .star-7{
+        left: 30%;
+        bottom: 12.5%;
+        width: 8%;
+    }
+
+    .star-8{
+        left: 24%;
+        bottom: 54%;
+        width: 6%;
+    }
+
+    .star-9{
+        left: 47.5%;
+        top: 30%;
+        width: 7%;
+    }
+
+    .star-10{
+        left: 45%;
+        top: 42.5%;
+        width: 7%;
+    }
+
+    .star-11{
+        right: 27%;
+        bottom: 13%;
+        width: 8%;
+    }
+
+    .star-12{
+        right: 18.5%;
+        bottom: 42%;
+        width: 7.2%;
+    }
+
+    .star-13{
+        right: 73%;
+        bottom: 41%;
+        width: 7.3%;
+    }
+
+    .star-14{
+        left: 31%;
+        bottom: 27%;
+        width: 7.5%;
+    }
+
+    .star-15{
+        right: 23%;
+        top: 40%;
+        width: 7%;
+    }
+
+    .star-16{
+        right: 37.5%;
+        bottom: 40%;
+        width: 7.8%;
+    }
+
+    .star-17{
+        left: 32%;
+        bottom: 53%;
+        width: 7%;
+    }
+
+    .star-18{
+        left: 14%;
+        bottom: 28.5%;
+        width: 7.8%;
+    }
+
+    .star-19{
+        right: 58%;
+        bottom: 40%;
+        width: 7.5%;
+
+    }
+    .star-20{
+        right: 21%;
+        bottom: 28%;
+        width: 8.3%;
+
+    }
+    .star-21{
+        left: 63%;
+        top: 41.5%;
+        width: 7.2%;
+
+    }
+    .star-22{
+        left: 17%;
+        bottom: 14%;
+        width: 7.5%;
+
+    }
+    .star-23{
+        left: 33%;
+        top: 29%;
+        width: 7.5%;
+
+    }
+    .star-24{
+        right: 48%;
+        bottom: 27%;
+        width: 7.5%;
+
+    }
 }
